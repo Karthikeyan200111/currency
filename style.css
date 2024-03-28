@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*{
+padding: 0;
+margin: 0;
+
+
+
+}
+body{
+    
+
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right top, #051937, #00476e, #007b9f, #00b3c0, #12ebd0);
+   
+   
+}
+
+.outerbox{
+    border-radius: 25px;
+    border-style: solid;
+    background-color: aliceblue;
+    padding: 50px;
+
+    font-family: 'Poppins', sans-serif;  
+}
+.outerbox h1{
+
+    padding-bottom: 30px;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    
+    
+
+
+}
+.submit button{
+    border-radius: 10px;
+    background-color:aqua;
+cursor:pointer;
+text-align: center;
+padding: 10px;
+margin-top: 20px
+
+
+
+
+}
+#Fromcountry{
+padding-right: 60px;
+margin-right: 40px;
+height: 30px;
+border-style: solid;
+border-radius: 10px;
+border-style: solid;
+background-color:aqua;
+border-color: black;
+text-align: center;
+align-items: center;
+
+
+}
+#Tocountry{
+    padding-right: 60px;
+    margin-right: 40px;
+    margin: 20px;
+    height: 30px;
+    border-style: solid;
+    border-radius: 10px;
+    border-style: solid;
+    background-color:aqua;
+    border-color: black;
+
+
+}
+.typed{
+    padding-right: 50px;
+    margin-right: 30px;
+    width: 50px;
+    border-radius: 10px;
+    background-color:aqua;
+    font-size:15px;
+    border-color: black;
+    text-align: center;
+align-items: center;
+    
+    
+
+
+}
+.result{
+
+
+    border-radius: 10px;
+    background-color:aqua;
+    padding-right: 70px;
+    margin-right: 40px;
+    font-size:15px;
+    border-color: black;
+    
+}
+input[type=text]{
+
+width:80px;
+height: 30px;
+border-style: solid;
+
+}
+
+
+@media  screen and (max-width:600px) {
+
+    body{
+
+
+        flex-direction: column;
+        align-content: start;
+    }
+
+.outerbox{
+    padding: 10px;
+    width: auto;
+    height: auto;
+    margin: 10px;
+   
+   
+}
+
+#Fromcountry{
+    flex-direction: column;
+    padding-right: 50px;
+    margin-right: 80px;
+    height: 30px;
+    border-style: solid;
+    
+    
+    }
+    .Top label{
+
+        margin-right: 10px;
+        padding-right: 10px;
+
+
+    }
+
+
+    .typed{
+        padding-right: 40px;
+        margin-right: 30px;
+        width: 50px;
+
+    }
+    .amount label{
+
+        margin-right: 10px;
+    }
+    .result{
+
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        margin-left: 120px;
+        padding-right: 40px;
+
+        
+    }
+
+
+
+}
